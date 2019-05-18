@@ -1,0 +1,150 @@
+/* Example styling of a h1 element */
+
+
+body {
+  background-color: white;
+}
+header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+header img {
+  top: 0px;
+  left:0px;
+  width:100%;
+}
+
+h1 span{
+color: white;
+font: bold 24px/45px Helvetica, Sans-Serif;
+letter-spacing: -1px;
+background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.7);
+padding: 10px;
+}
+
+.navBar {
+  font: bold 20px/30px Helvetica, Sans-Serif;
+  display: flex;
+  background-color: #EA917C;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+  .navBar a {
+  color: white;
+  padding: 40px;
+  text-decoration: none;
+  text-align: center;
+  }
+  .navBar a:hover {
+    background-color: #EBF5C2;
+    color: black;
+  }
+
+.navBar ul {
+  background-color: inherit;
+	padding-left: 0px;
+	display: block;
+	width: 100%;
+  text-align: center;
+}
+
+.navBar ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	background-color: inherit;
+	text-align: center;
+	margin-right: 10px;
+}
+
+
+.content {
+  font-family: 'Roboto-bold', sans-serif;
+	width: 100%;
+	margin: auto;
+	display: flex;
+  justify-content: space-between;
+}
+
+section {
+	background-color: #EA7B80;
+	width: 50%;
+  padding: 30px;
+  margin-right: 10px;
+
+}
+
+section h2 {
+  padding: 20px;
+  letter-spacing: -1px;
+}
+.sectionImg {
+  width: 50%;
+  padding: 10px;
+}
+
+aside {
+	background-color: #E15156;
+	width: 50%;
+  padding: 30px;
+
+}
+aside h2 {
+  padding: 20px;
+  letter-spacing: -1px;
+}
+.navLinks {
+  font: bold 20px/30px Helvetica, Sans-Serif;
+  display: flex;
+  background-color: #EA917C;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+  .navLinks a {
+  color: white;
+  padding: 40px;
+  text-decoration: none;
+  text-align: center;
+  }
+  .navLinks a:hover {
+    background-color: #EBF5C2;
+    color: black;
+  }
+
+.navLinks ul {
+  background-color: inherit;
+	padding-left: 0px;
+	display: block;
+	width: 100%;
+  text-align: center;
+}
+
+.navLinks ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	background-color: inherit;
+	text-align: center;
+	margin-right: 10px;
+}
+
+
+footer {
+  color: black;
+  font: Helvetica, Sans-Serif;
+  padding: 10px;
+  }
+}
