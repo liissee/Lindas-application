@@ -104,6 +104,8 @@ aside h2 {
   padding: 20px;
   letter-spacing: -1px;
 }
+ .learnmore {
+ }
 .navLinks {
   font: bold 20px/30px Helvetica, Sans-Serif;
   display: flex;
